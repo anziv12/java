@@ -12,7 +12,7 @@ public class ListCollection
 		ArrayList<String> list= new ArrayList <String>();
 		list.add("anzi");
 		list.add("ayaan");
-		Iterator itr =list.iterator();
+		Iterator<String> itr =list.iterator();
 	
 		while(itr.hasNext())
 		{
@@ -20,6 +20,10 @@ public class ListCollection
 		
 			}  
 			
+	System.out.println("each method");
+	for(String a:list)
+	{
+		System.out.println(a);
 	}
 
 
